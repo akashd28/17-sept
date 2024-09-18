@@ -1,11 +1,10 @@
 variable "cidr" {
   type = string
-
-  type = string
+  default = ""
 }
 
 variable "vpc_name" {
   type = string
  default = ""
 }
-}
+
